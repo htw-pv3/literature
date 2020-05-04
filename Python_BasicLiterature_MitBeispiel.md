@@ -9,7 +9,7 @@ print(a)
 # Declaring a list
 L = [1, "a" , "string" ,3]
 print L
-#The output is :
+#The output is:
 [1, 'a', 'string', 3]
 
 # Tuples in Python
