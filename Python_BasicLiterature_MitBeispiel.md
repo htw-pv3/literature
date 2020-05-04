@@ -74,7 +74,6 @@ else:
 #The output is : i is 20
 
 
-
 #Iterations in Python
 #Iteration by while loop for a condition
 i = 1
