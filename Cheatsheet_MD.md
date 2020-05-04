@@ -5,23 +5,31 @@
     ### H3
     #### H4
     ##### H5
+    ###### H6
 
 # H1
 ## H2
 ### H3
 #### H4
 ##### H5
+###### H6
 
 # Formatierungen
 
 	_Kursiv_ oder *Kursiv*
+    
     __Fett__ oder **Fett**
+    
     ~~durgestrichen~~
+    
     *__Kombiniert__*
 
 _Kursiv_ oder *Kursiv*
+
 __Fett__ oder **Fett**
+
 ~~durgestrichen~~
+
 *__Kombiniert__*
 
 # Listen und Code Block
@@ -43,9 +51,6 @@ __Fett__ oder **Fett**
 3. Nummerierte Liste drittes Element
 	1. Nummerierte Subliste
 4. Nummerierte Liste viertes Element
-
-
-	Ein Code Block wie dieser hier, wird durch das Einrücken des Satzes durch einen Tabstopp oder vier Leerzeichen hervorgerufen
 
 # Links
 
@@ -71,6 +76,16 @@ __Fett__ oder **Fett**
 
 # Bilder
 
+	## Erste Möglichkeit
+
+	![alt text](https://upload.wikimedia.org/wikipedia/commons/9/96/World_Photovoltaics_Installed_Capacity.svg)
+
+	## Zweite Möglichkeit
+
+	![alt text][PV-Zubau]
+
+	[PV-Zubau]: https://upload.wikimedia.org/wikipedia/commons/9/96/World_Photovoltaics_Installed_Capacity.svg
+
 ## Erste Möglichkeit
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/9/96/World_Photovoltaics_Installed_Capacity.svg)
@@ -85,16 +100,20 @@ __Fett__ oder **Fett**
 
 		Ein Code Block wie dieser hier, wird durch das Einrücken des Satzes durch einen Tabstopp oder vier Leerzeichen hervorgerufen
 
-	`I'm a Code Inline!`
+    <!-- tsk -->
+    
+    unterbricht Code Blöcke
+    
+    `I'm a Code Inline!`
 	I'm not but `I am!`
-
-    <!-- tsk --> unterbricht Code Blöcke
 
 <!-- tsk -->
 
 	Ein Code Block wie dieser hier, wird durch das Einrücken des Satzes durch einen Tabstopp oder vier Leerzeichen hervorgerufen
 
 <!-- tsk -->
+
+unterbricht Code Blöcke
 
 `I'm a Code Inline!`
 I'm not but `I am!`
