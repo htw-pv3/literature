@@ -100,12 +100,12 @@ __Fett__ oder **Fett**
 
 		Ein Code Block wie dieser hier, wird durch das Einrücken des Satzes durch einen Tabstopp oder vier Leerzeichen hervorgerufen
 
-	`I'm a Code Inline!`
-	I'm not but `I am!`
-
     <!-- tsk -->
     
     unterbricht Code Blöcke
+    
+    `I'm a Code Inline!`
+	I'm not but `I am!`
 
 <!-- tsk -->
 
