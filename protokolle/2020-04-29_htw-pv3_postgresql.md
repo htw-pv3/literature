@@ -2,43 +2,43 @@
 
 ## Feedback zur Übung / Generell:
 
-    * Relativ wenig Antworten  
+* Relativ wenig Antworten  
 
-    * Werden die nächsten Tage bewertet  
+* Werden die nächsten Tage bewertet  
 
     
 
 ## Fragen zu git und GitHub:
     
-    *Wie kann ich einen Pull Request über git scm in den Master starten?* Hab das jetzt über GitHub gemacht. [Link](https://github.com/htw-pv3/literature/pull/9) 
+* Wie kann ich einen Pull Request über git scm in den Master starten?* Hab das jetzt über GitHub gemacht. [Link](https://github.com/htw-pv3/literature/pull/9) 
 	
-    ->Die Pull Requests (PR) sollten über GitHub erstellt werden. Das geht auch über die GitBash, aber Ziel des PR ist eine Dokumentation und Kommunikation (Review mit 4-Augen-Prinzip)  
+ ->Die Pull Requests (PR) sollten über GitHub erstellt werden. Das geht auch über die GitBash, aber Ziel des PR ist eine Dokumentation und Kommunikation (Review mit 4-Augen-Prinzip)  
     
 	
-    *Wie sieht der "git workflow" genau aus?*
+* Wie sieht der "git workflow" genau aus?
 	
-    -> Habe dazu ein kurzes Video-Tutorial gemacht.  
+-> Habe dazu ein kurzes Video-Tutorial gemacht.  
     
 	
-    *Was ist eine "gute Commit-Message"?*
+* Was ist eine "gute Commit-Message"?
 	
-    -> Verb - Nomen - #Ticketnummer
+-> Verb - Nomen - #Ticketnummer
 	
 	
-    *Was ist eine "schlechte Commit-Message"?*
-    -> 
+* Was ist eine "schlechte Commit-Message"?
+-> 
     
 	
-    *Darf ich jemals direkt auf den Master-Branch pushen?*
+* Darf ich jemals direkt auf den Master-Branch pushen?
 	
-    -> Nein!
+-> Nein!
 
 
 ## Quick-Walkthrough: Protokolle aufbereiten 
 
-	* issue erstellen lohnt sich ab einer Bearbeungsdauer von 1 bis 2 Stunden
+* issue erstellen lohnt sich ab einer Bearbeungsdauer von 1 bis 2 Stunden
 	
-	* Hot-Fixes direkt drauf (Rechtschreibfehler, keine substanziellen Veränderungen, selbsterklärende Commit-Messages verwenden!)
+* Hot-Fixes direkt drauf (Rechtschreibfehler, keine substanziellen Veränderungen, selbsterklärende Commit-Messages verwenden!)
 
 
 
@@ -128,66 +128,66 @@
 
 ## pg-Admin4:
 
-	* Web-GUI, die SQL-code ausführt
+* Web-GUI, die SQL-code ausführt
 	
-	* Man verbindet sich immer mit einem Datenbank-Server und nicht direkt mit einer Datenbank
+* Man verbindet sich immer mit einem Datenbank-Server und nicht direkt mit einer Datenbank
     
 
-    * Servergruppe erstellen: Servers -> create -> Server Group bspw. HTW-PV3
+* Servergruppe erstellen: Servers -> create -> Server Group bspw. HTW-PV3
 
-    * Server erstellen: HTW-PV3 -> create -> Server
+* Server erstellen: HTW-PV3 -> create -> Server
 
-      * Reiter General: Name = PostgresSQL 12
+  * Reiter General: Name = PostgresSQL 12
 
-      * Reiter Connection: Host name/address=localhost
+  * Reiter Connection: Host name/address=localhost
 
-      * save
+  * save
 
-    * Server wählen: PostgresSQL 12
+* Server wählen: PostgresSQL 12
 
-      * postgres-Datenbank nicht anfassen außer die ersten beiden Skripte?!
+  * postgres-Datenbank nicht anfassen außer die ersten beiden Skripte?!
 
 
-    * Ein Befehl der ausgeführt wird, wird immer nur auf einer Datenbank ausgeführt
+* Ein Befehl der ausgeführt wird, wird immer nur auf einer Datenbank ausgeführt
 
-      * Fehlerquelle: Falsche DB ausgewählt und code somit auf falscher DB ausgeführt (Vorsicht!)
+  * Fehlerquelle: Falsche DB ausgewählt und code somit auf falscher DB ausgeführt (Vorsicht!)
 
-    * *Wie führe ich auch einer Datenbank code aus?*
+* *Wie führe ich auch einer Datenbank code aus?*
 
-      1. * Server auswählen
+  1. * Server auswählen
 
-      2. * Datenbank auswählen 
+  2. * Datenbank auswählen 
 
-      3. * Rechtskick: Querry-tool:
+  3. * Rechtskick: Querry-tool:
 
-         * Code einfügen und ausführen (F5)
+     * Code einfügen und ausführen (F5)
 
-         * Querry wird immer mit Ausgabe "Query returned successfully in XXX msec." abgeschlossen
+     * Querry wird immer mit Ausgabe "Query returned successfully in XXX msec." abgeschlossen
 
-         * Falls nicht, wurde nichts ausgeführt (All or nothing)
+     * Falls nicht, wurde nichts ausgeführt (All or nothing)
 
-         * **!Wichtig!** In der Regel muss ausgeführter CODE (rechts) im Browser (links) per Rechtsklick>Refresh neugeladen werden.
+     * **!Wichtig!** In der Regel muss ausgeführter CODE (rechts) im Browser (links) per Rechtsklick>Refresh neugeladen werden.
 
-      4. * Disconnected vom Server
+  4. * Disconnected vom Server
 	      
-      5. * PostgresSQL 12: Properties ändern
+  5. * PostgresSQL 12: Properties ändern
 
-         * user == sonnja
+     * user == sonnja
 
-      6. * reconnecten mit Passwort : sonnja
-
-
-    * *FRAGE: Wie wurde die Datenbank "sonnja_db" hinzugefügt? Steht das in dem Skript 2?*
-
-    * -> Ja (Aber Prinzipiell Rechtsklick auf die Datenbank und neue Datenbank erzeugen)
+  6. * reconnecten mit Passwort : sonnja
 
 
+* FRAGE: Wie wurde die Datenbank "sonnja_db" hinzugefügt? Steht das in dem Skript 2?
 
-	* User Management mit Skript (von LH) erstellen:
+* -> Ja (Aber Prinzipiell Rechtsklick auf die Datenbank und neue Datenbank erzeugen)
 
-      * user Rolle erstellen
 
-      * admin Rolle erstellen
+
+* User Management mit Skript (von LH) erstellen:
+
+  * user Rolle erstellen
+
+  * admin Rolle erstellen
 
 
 # 17:00 Daten-Session
@@ -203,11 +203,15 @@
 
 
 # Aufgaben
+
 ☐ ☑ ☒
+
    ☐ Metadaten zu den CSV-Dateien "HTW-Wetter" und "Sonja-Messdaten" generieren [ALL]
+   
    ☐ die richtigen Datenbankbefehle für die Fehler -> Lücken finden und Lücken schließen [ALL]
    
    ## 1. SQL-Script
+   
    -- Groups
 DROP ROLE IF EXISTS role_read; 
 CREATE ROLE role_read WITH NOLOGIN NOSUPERUSER NOCREATEDB NOCREATEROLE INHERIT NOREPLICATION; -- Read only
@@ -241,22 +245,22 @@ GRANT role_admin TO sonnja; -- 2018-04-25 LH
    
 
 
-	* Fragen zu Git:
+## Fragen zu Git:
 
-      * -commit auf falschen branch a
+* -commit auf falschen branch a
 
-      * -wurde außerdem auf anderem branch b überholt
+* -wurde außerdem auf anderem branch b überholt
 
-      * -branch a ist aber noch nicht abgeschlossen
+* -branch a ist aber noch nicht abgeschlossen
 
-      * -[Link](https://github.com/htw-pv3/literature/issues/11)
+* -[Link](https://github.com/htw-pv3/literature/issues/11)
 
-	  * -guter Lösungsweg?
+* -guter Lösungsweg?
 
         
-	* Sobald bei git nicht trivale Unterschiede auftauchen (z.B. eine Bearbeitung in der gleichen Zeit), tritt ein sognannter "Merge Conflict" auf.
-	* Das sieht zunächst schlimmer aus als es wirklich ist.
-	* Das macht kurz Angst, kann aber relativ einfach behoben werden.
-	* Ich schau es mir mal in Ruhe an und zeige eine einfache Lösung.
-	* Ich verwende das Programm Meld (http://meldmerge.org/) zum vergleichen von Dokumenten (Dif-Tool). Damit ist ein "manuelles Beheben" sehr einfach.
+* Sobald bei git nicht trivale Unterschiede auftauchen (z.B. eine Bearbeitung in der gleichen Zeit), tritt ein sognannter "Merge Conflict" auf.
+* Das sieht zunächst schlimmer aus als es wirklich ist.
+* Das macht kurz Angst, kann aber relativ einfach behoben werden.
+* Ich schau es mir mal in Ruhe an und zeige eine einfache Lösung.
+* Ich verwende das Programm Meld (http://meldmerge.org/) zum vergleichen von Dokumenten (Dif-Tool). Damit ist ein "manuelles Beheben" sehr einfach.
 
