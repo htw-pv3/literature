@@ -199,15 +199,15 @@
     Datenbankimport versuchen
 
 
- [LINK](https://next.rl-institut.de/s/LJXYzBDyC5aDJtz) zu Rohdaten
+ [Link zu Rohdaten](https://next.rl-institut.de/s/LJXYzBDyC5aDJtz)
 
 
 # Aufgaben
 
 
-   - [] Metadaten zu den CSV-Dateien "HTW-Wetter" und "Sonja-Messdaten" generieren [ALL]
+[ ] Metadaten zu den CSV-Dateien "HTW-Wetter" und "Sonja-Messdaten" generieren [ALL]
    
-   - [] die richtigen Datenbankbefehle für die Fehler -> Lücken finden und Lücken schließen [ALL]
+[ ] die richtigen Datenbankbefehle für die Fehler -> Lücken finden und Lücken schließen [ALL]
    
    ## 1. SQL-Script
    
@@ -246,20 +246,24 @@ GRANT role_admin TO sonnja; -- 2018-04-25 LH
 
 ## Fragen zu Git:
 
-* -commit auf falschen branch a
+* commit auf falschen branch a
 
-* -wurde außerdem auf anderem branch b überholt
+* wurde außerdem auf anderem branch b überholt
 
-* -branch a ist aber noch nicht abgeschlossen
+* branch a ist aber noch nicht abgeschlossen
 
-* -[Link](https://github.com/htw-pv3/literature/issues/11)
+* [Link zum Issue](https://github.com/htw-pv3/literature/issues/11)
 
-* -guter Lösungsweg?
+* guter Lösungsweg?
 
         
 * Sobald bei git nicht trivale Unterschiede auftauchen (z.B. eine Bearbeitung in der gleichen Zeit), tritt ein sognannter "Merge Conflict" auf.
+
 * Das sieht zunächst schlimmer aus als es wirklich ist.
+
 * Das macht kurz Angst, kann aber relativ einfach behoben werden.
+
 * Ich schau es mir mal in Ruhe an und zeige eine einfache Lösung.
-* Ich verwende das Programm Meld (http://meldmerge.org/) zum vergleichen von Dokumenten (Dif-Tool). Damit ist ein "manuelles Beheben" sehr einfach.
+
+* Ich verwende das [Programm Meld] (http://meldmerge.org/) zum vergleichen von Dokumenten (Dif-Tool). Damit ist ein "manuelles Beheben" sehr einfach.
 
