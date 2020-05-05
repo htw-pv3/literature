@@ -1,17 +1,14 @@
 # literature
 Bibfiles and literature
 
-Literatur (Struktur)
-  Software
-  PV-Anlagendimensionierung
+already at place:
+  - Software (Bibtex-Eintrag "shared_literature.bib")
+  - git - tutorials and commands
+  - Python
+  - PV for engineers
+  
 
-
-IDEE: PV-Anlagendimensionierung!
-Zunächst wurde ein Bibtex-Eintrag zur verwendeten Software für die Zusammenarbeit an PV-Anlagen angelegt. Um die Werkzeuge mit praktischen Auslegungsgrößen zu "füttern", wurde im Master eine Textdatei hinzugefügt, in der zunächst nur Links und Informationen gesammelt werden können. Später soll diese "lose" Liste für die Zitation aufgearbeitet werden. Fragen, die hierbei zu klären wären sind zum Beispiel: Welche Links sind gut? Welche Informationen sollten in dem Bibtex-Eintrag stehen (Kategorisierung etc.)? Wonach kann/ wird eine Anlagendimensionierung unterschieden (PV-Leistung/Geschäftsmodell o.ä.)?
-
-Vorschlag zur Kategorisierung:
-  EFH bis 20 kWp
-  MFH bis 300 kWp
-  Kleingewerbe bis 100 kWp
-  Großgewerbe größer 100 kWp
-  Industrielle Solaranlagen und -kraftwerke
+**software**: contains Metadata for the software we work with
+**git:**  short-description here!
+**Pyhton:** short-description here!
+**Pv for engineers:** information about pv-systems that empower us to set it up!
