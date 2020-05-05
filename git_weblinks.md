@@ -1,0 +1,55 @@
+# Literatur zu Git 
+
+Git ist ein Open-Source-Versionskontrollsystem. 
+Die folgenden Links enthalten Anleitungen zu git und github. 
+Sie fassen wesentliche Funktionen der Software zusammen und zeigen die häufigsten Befehle, insebsondere für git bash.
+
+1. Titel: ** Hello World - Github Guides **
+   URL: [https://guides.github.com/activities/hello-world/]
+   Keyword: Deutsch, Verwendung der Git ohne Kommandozeilen, Beginner
+
+2. Titel: ** Git Cheat Sheet **
+   URL: [https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf]
+   Comment: GIT Cheat Sheet von GitHub
+   Keyword: Spickzettell
+
+3. Titel: **Pro Git book **
+   Autor: Scott Chacon and Ben Straub
+   URL: [https://git-scm.com/book/en/v2]
+   Keyword: Englisch, Advance, pdf
+   
+4. Titel: **GIT-Tutorium Teil 1**
+   Autor: Sujeevan Vijayakumaran
+   Date: 12/2014
+   URL: [http://www.freiesmagazin.de/mobil/freiesMagazin-2014-12-bilder.html#fm_14_12_git_teil1]
+   Keyword: Deutsch, advance
+
+5. Titel: **GIT-Tutorium Teil 2**
+   Autor: Sujeevan Vijayakumaran
+   Date: 01/2015
+   URL: [http://www.freiesmagazin.de/mobil/freiesMagazin-2015-01-bilder.html#fm_15_01_git_teil2]
+   Keyword: Deutsch, advance
+   
+6. Titel: **GIT-Tutorium Teil 3**
+   Autor: Sujeevan Vijayakumaran
+   Date: 02/2015
+   URL: [http://www.freiesmagazin.de/mobil/freiesMagazin-2015-02-bilder.html#fm_15_02_git_teil3]
+   Keyword: Deutsch, advance
+
+7. Titel: **Git Merge**
+   Autor: Webseite 04/2016
+   URL:[https://www.atlassian.com/git/tutorials/using-branches/git-merge]
+   Keyword: Englisch, beginner
+   
+
+# Git GUI's
+
+Um die Git-Repo zu visuellisieren und den Überblick auf das Projekt zu schaffen, sind folgend die GUI von Git. (*** nicht empfehlen ***)
+
+1. ** Sourcetree ** 
+2. ** Git Extensions ** 
+3. ** CodeReview **
+4. ** GitBlade **
+5. ** SmartGit **
+6. ** ungit **
+     
