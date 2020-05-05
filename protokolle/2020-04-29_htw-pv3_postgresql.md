@@ -152,7 +152,7 @@
 
   * Fehlerquelle: Falsche DB ausgewählt und code somit auf falscher DB ausgeführt (Vorsicht!)
 
-* *Wie führe ich auch einer Datenbank code aus?*
+* Wie führe ich auch einer Datenbank code aus?
 
   1. * Server auswählen
 
@@ -204,11 +204,10 @@
 
 # Aufgaben
 
-☐ ☑ ☒
 
-   ☐ Metadaten zu den CSV-Dateien "HTW-Wetter" und "Sonja-Messdaten" generieren [ALL]
+   - [] Metadaten zu den CSV-Dateien "HTW-Wetter" und "Sonja-Messdaten" generieren [ALL]
    
-   ☐ die richtigen Datenbankbefehle für die Fehler -> Lücken finden und Lücken schließen [ALL]
+   - [] die richtigen Datenbankbefehle für die Fehler -> Lücken finden und Lücken schließen [ALL]
    
    ## 1. SQL-Script
    
