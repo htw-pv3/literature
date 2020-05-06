@@ -1,4 +1,7 @@
 # literature
+
+[List of alternative Etherpads](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite)
+
 Bibfiles and literature
 
 Literatur (Struktur)
