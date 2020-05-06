@@ -43,6 +43,9 @@ __Fett__ oder **Fett**
     	1. Nummerierte Subliste
     4. Nummerierte Liste viertes Element
 
+	 - [ ] Checkboxen funktionieren
+	 - [x] wie Listen
+
 1. Nummerierte Liste erstes Element
 2. Nummerierte Liste zweites Element
   	* Sub-Liste mit Punkt
@@ -51,6 +54,9 @@ __Fett__ oder **Fett**
 3. Nummerierte Liste drittes Element
 	1. Nummerierte Subliste
 4. Nummerierte Liste viertes Element
+
+- [ ] Checkboxen funktionieren
+- [x] wie Listen
 
 # Links
 
