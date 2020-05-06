@@ -9,9 +9,9 @@ already at place:
   - git - tutorials and commands
   - Python
   - PV for engineers
-  
 
-**software**: contains Metadata for the software we work with
-**git:**  short-description here!
-**Pyhton:** short-description here!
-**Pv for engineers:** information about pv-systems that empower us to set it up!
+- **software**: contains Metadata for the software we work with
+- **git:**  short-description here!
+- **Pyhton:** short-description here!
+- **Pv for engineers:** information about pv-systems that empower us to set it up!
+

@@ -1,8 +1,8 @@
-### Literatur zu Unterrichtthemen 
+# Literatur zu Git 
 
-## Literatur zu Git 
-
-Git ist ein Open-Source-Versionskontrollsystem. Die folgende Links sind die Anleitungen der Git und ihre Inhalte fassen die häufige Git-Kommandozeilenbefehle. 
+Git ist ein Open-Source-Versionskontrollsystem. 
+Die folgenden Links enthalten Anleitungen zu git und github. 
+Sie fassen wesentliche Funktionen der Software zusammen und zeigen die häufigsten Befehle, insebsondere für git bash.
 
 1. Titel: ** Hello World - Github Guides **
    URL: [https://guides.github.com/activities/hello-world/]
@@ -42,7 +42,7 @@ Git ist ein Open-Source-Versionskontrollsystem. Die folgende Links sind die Anle
    Keyword: Englisch, beginner
    
 
-## Git GUI
+# Git GUI's
 
 Um die Git-Repo zu visuellisieren und den Überblick auf das Projekt zu schaffen, sind folgend die GUI von Git. (*** nicht empfehlen ***)
 
@@ -52,24 +52,4 @@ Um die Git-Repo zu visuellisieren und den Überblick auf das Projekt zu schaffen
 4. ** GitBlade **
 5. ** SmartGit **
 6. ** ungit **
-
-
----  
-## Literatur zu PV-Modellierung
-1. Titel: ** Sinnvolle Dimensionierung von Photovoltaikanlagen für Prosumer **
-   URL: [https://pvspeicher.htw-berlin.de/sinnvolle-dimensionierung/]
-   
--Eintrag 2-
-Titel:
-URL:
-
--Eintrag 3-
-Titel:
-URL:
--Eintrag 4-
-Titel:
-URL:
-
----
-## Literautur zu Sonnja 
-   
+     
