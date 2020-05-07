@@ -68,7 +68,7 @@ git commit -m "remove the File #6"
 ## See all the Branches
 git branch -av
 
-## Creatung a new Branch
+## Creating a new Branch
 git checkout -b feature/gitbash-code-so-far#10
 
 ## Creating a new File in the actual Branch
@@ -85,11 +85,13 @@ git commit -a -m "GitBash_Code_So_Far #10"
 ## Upload the remote changes (Commits) for a review and follow with a PullRequest(PR)
 git push --set-upstream origin feature/gitbash-code-so-far#10
 
-## Deleting a Remote Branch if you push the branch already and have mistakes
+## Deleting a Remote Branch (Just if you had a mistake and you push (Published) the branch already)
 git push origin --delete feature/gitbash-code-so-far#10
+## Or
+git branch -dr feature/gitbash-code-so-far-#10
 
-## Deleting a Local Branch with mistakes
-git checkout master 
+## Deleting a Local Branch with mistakes (Just if you had a mistake)
+git checkout master
 git branch -D feature/gitbash-code-so-far-#10
 
 ## Staging and commiting the Modified File (Updates) before merge (Tracking the File)
@@ -98,14 +100,14 @@ git commit -a -m "GitBash_Code_So_Far #10"
 ## Upload the remote changes (Commits) to the remote already created PullRequest(PR)
 git push --set-upstream origin feature/gitbash-code-so-far-#10
 
-## Merge the branch after Positiv Review of members
-git merge feature/gitbash-code-so-far#10
+## Merge the branch after Positiv Review of members (has to be done in GitHub GUI or try the following):
+git merge --no--ff feature/gitbash-code-so-far-#10
 
-## Deleting a Remote Branch if you push the branch already
-git push origin --delete feature/gitbash-code-so-far#10
+## Closing an issue related to the PR in the same repository
+close #issue_number
 
-## Deleting a Local Branch 
-git checkout master 
-git branch -D feature/gitbash-code-so-far#10
+## Changing to the master Branch
+git checkout master
 
- 
+## Update the changes in the Repository (Folder) (Download all the updated files from the remote server)
+git pull
