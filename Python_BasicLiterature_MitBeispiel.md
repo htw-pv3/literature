@@ -6,7 +6,7 @@ a = "This is a string"
 
 print(a)
 
-##The output is : This is string
+## The output is : This is string
 
 
 # Declaring a list
@@ -14,7 +14,7 @@ L = [1, "a" , "string" ,3]
 
 print L
 
-##The output is:
+## The output is:
 
 [1, 'a', 'string', 3]
 
@@ -24,12 +24,13 @@ tup = (1,2,3,4)
 
 print (tup)
 
-##The output is (1,2,3,4)  
-###Tuples are like lists but they cannot be changed.
+## The output is (1,2,3,4) 
+ 
+### Tuples are like lists but they cannot be changed.
 
-#Python Operators
+# Python Operators
 
-  ##Arithmetic Operators
+  ## Arithmetic Operators
   '+'  Addition:	x + y
   
   '-'  Subtraction: 	x - y
@@ -70,10 +71,10 @@ if (i < 15):
 
    print ("10 is less than 15")
 
-##The output is : 10 is less than 15
+## The output is : 10 is less than 15
 
 
-#if- else
+# if- else
 
 ## if we want to do something else if the condition is false.
 i = 20;
@@ -88,12 +89,12 @@ else:
 
     print ("i is greater than 15")
 
-##The output is : i is greater than 15
+## The output is : i is greater than 15
 
 
-#if-elif-else ladder
+# if-elif-else ladder
 
- ##Here,you can decide among multiple options
+ ## Here,you can decide among multiple options
 
 i = 20
 
@@ -113,12 +114,12 @@ else:
 
     print ("i is not present")
 
-##The output is : i is 20
+## The output is : i is 20
 
 
-#Iterations in Python
+# Iterations in Python
 
-##Iteration by while loop for a condition
+## Iteration by while loop for a condition
 i = 1
 
 while (i < 10):
@@ -127,10 +128,10 @@ while (i < 10):
 
     print i,
 
-##The output is : 2 3 4 5 6 7 8 9 10
+## The output is : 2 3 4 5 6 7 8 9 10
 
 
-#Iteration by for loop on list
+# Iteration by for loop on list
 
 L = [1, 4, 5, 7, 8, 9]
 
@@ -138,7 +139,7 @@ for  i in L:
 
     print i,
 
-##The output is : 1 4 5 7 8 9
+## The output is : 1 4 5 7 8 9
 
 
 # We can create our own functions!A simple Python function to check whether x is even or odd
