@@ -104,7 +104,8 @@ def evenOdd( x ):
         print "even"
     else:
         print "odd"
-		
+
 ## Driver code
   evenOdd(3)
+  
 ## Output is : odd
