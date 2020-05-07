@@ -85,23 +85,23 @@ git commit -a -m "GitBash_Code_So_Far #10"
 ## Upload the remote changes (Commits) for a review and follow with a PullRequest(PR)
 git push --set-upstream origin feature/gitbash-code-so-far#10
 
-## Deleting a Remote Branch if you push the branch already
+## Deleting a Remote Branch if you push the branch already and have mistakes
 git push origin --delete feature/gitbash-code-so-far#10
 
-## Deleting a Local Branch 
+## Deleting a Local Branch with mistakes
 git checkout master 
-git branch -D feature/git-code-so-far-#10
+git branch -D feature/gitbash-code-so-far-#10
 
-## Staging and commiting the Modified File before merge (Tracking the File)
+## Staging and commiting the Modified File (Updates) before merge (Tracking the File)
 git commit -a -m "GitBash_Code_So_Far #10"
 
 ## Merge the branch after Positiv Review of members
-git merge feature/git-code-so-far#10
+git merge feature/gitbash-code-so-far#10
 
 ## Deleting a Remote Branch if you push the branch already
 git push origin --delete feature/gitbash-code-so-far#10
 
 ## Deleting a Local Branch 
 git checkout master 
-git branch -D feature/git-code-so-far#10
+git branch -D feature/gitbash-code-so-far#10
  
