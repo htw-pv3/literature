@@ -16,7 +16,7 @@ git config --list
 git config --global --edit
 
 ### Open in your Editor the file bash.bashrc from the Directory C:\Git\etc\ and Add at the end of the file the following lines:
-# start from
+start from
 cd C:/git/github;
 
 ## Check that you are under C:/git/github/htw-pv3) otherwise write
@@ -95,6 +95,9 @@ git branch -D feature/gitbash-code-so-far-#10
 ## Staging and commiting the Modified File (Updates) before merge (Tracking the File)
 git commit -a -m "GitBash_Code_So_Far #10"
 
+## Upload the remote changes (Commits) to the remote already created PullRequest(PR)
+git push --set-upstream origin feature/gitbash-code-so-far-#10
+
 ## Merge the branch after Positiv Review of members
 git merge feature/gitbash-code-so-far#10
 
@@ -104,4 +107,5 @@ git push origin --delete feature/gitbash-code-so-far#10
 ## Deleting a Local Branch 
 git checkout master 
 git branch -D feature/gitbash-code-so-far#10
+
  
