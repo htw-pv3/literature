@@ -90,9 +90,9 @@ __Fett__ oder **Fett**
 
 	## Zweite Möglichkeit
 
-	![alt text][PV-Zubau]
+	![alt text][Small Telescope]
 
-	[PV-Zubau]: https://img.icons8.com/cotton/64/000000/small-telescope.png
+	[Small Telescope]: https://img.icons8.com/cotton/64/000000/small-telescope.png
 
 	[Small Telescope icon](https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
 
@@ -104,9 +104,9 @@ __Fett__ oder **Fett**
 
 ## Zweite Möglichkeit
 
-![alt text][PV-Zubau]
+![alt text][Small Telescope]
 
-[PV-Zubau]: https://img.icons8.com/cotton/64/000000/small-telescope.png
+[Small Telescope]: https://img.icons8.com/cotton/64/000000/small-telescope.png
 
 ["Small Telescope icon"](https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
 
@@ -160,7 +160,7 @@ I'm not but `I am!`
 	***
 	funktioniert. Als auch
 	___
-	.
+	Unterstriche.
 
 Sowhol Sterne
 ***
