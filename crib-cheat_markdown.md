@@ -86,7 +86,7 @@ __Fett__ oder **Fett**
 
 	![alt text](https://img.icons8.com/cotton/64/000000/small-telescope.png)
 
-	[Small Telescope icon]((https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
+	[Small Telescope icon](https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
 
 	## Zweite Möglichkeit
 
@@ -94,13 +94,13 @@ __Fett__ oder **Fett**
 
 	[PV-Zubau]: https://img.icons8.com/cotton/64/000000/small-telescope.png
 
-	[Small Telescope icon]((https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
+	[Small Telescope icon](https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
 
 ## Erste Möglichkeit
 
 ![alt text](https://img.icons8.com/cotton/64/000000/small-telescope.png)
 
-["Small Telescope icon"]((https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
+["Small Telescope icon"](https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
 
 ## Zweite Möglichkeit
 
@@ -108,7 +108,7 @@ __Fett__ oder **Fett**
 
 [PV-Zubau]: https://img.icons8.com/cotton/64/000000/small-telescope.png
 
-["Small Telescope icon"]((https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
+["Small Telescope icon"](https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
 
 # Code Blöcke und Code Inline
 
