@@ -41,7 +41,45 @@ Sie fassen wesentliche Funktionen der Software zusammen und zeigen die häufigst
    URL:[https://www.atlassian.com/git/tutorials/using-branches/git-merge]
    Keyword: Englisch, beginner
    
+**Video-Tutorials für Git/GitHub** 
+Zu einigen Themenbereichen finden sich bei YouTube einige Erklärungenvideos rund um Git/GitHub.
+Hier können noch weitere hilfreiche Tutorials ergänzt werden.
+ 
+1. Titel: **Lokale Repositories**
+   Autor: The Morpheus Tutorials
+   Länge: 8:43 min
+   Datum: 2017-01-31
+   URL:[https://www.youtube.com/watch?v=9RbU-h0NH0A&list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&index=1]
+   Keyword: Deutsch, beginner, repositories 
+   
+2. Titel: **Branches, Merges, etc**
+   Autor: The Morpheus Tutorials
+   Länge: 10:06 min
+   Datum: 2017-02-10
+   URL:[https://www.youtube.com/watch?v=ZVoSBA03Tdc&list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&index=3]
+   Keyword: Deutsch, beginner, branches 
+   
+3. Titel: **Pull-Requests**
+   Autor: The Morpheus Tutorials
+   Länge: 10:16 min
+   Datum: 2018-12-11
+   URL:[https://www.youtube.com/watch?v=l8MZCnrSeQQ&list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&index=6]
+   Keyword: Deutsch, beginner, pull
+   
+4. Titel: **Issues**
+   Autor: The Morpheus Tutorials
+   Länge: 6:47 min
+   Datum: 2018-12-13
+   URL:[https://www.youtube.com/watch?v=wSHNvdRjB9Q&list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&index=8]
+   Keyword: Deutsch, beginner, issues
 
+5. Titel: **Workflow**
+   Autor: Pilzschaf
+   Länge: 12:44 min
+   Datum: 2016-10-08
+   URL:[https://www.youtube.com/watch?v=hSbJaIdqwKg]
+   Keyword: Deutsch, beginner, workflow
+   
 # Git GUI's
 
 Um die Git-Repo zu visuellisieren und den Überblick auf das Projekt zu schaffen, sind folgend die GUI von Git. (*** nicht empfehlen ***)
