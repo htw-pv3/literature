@@ -43,6 +43,9 @@ __Fett__ oder **Fett**
     	1. Nummerierte Subliste
     4. Nummerierte Liste viertes Element
 
+	 - [ ] Checkboxen funktionieren
+	 - [x] wie Listen
+
 1. Nummerierte Liste erstes Element
 2. Nummerierte Liste zweites Element
   	* Sub-Liste mit Punkt
@@ -51,6 +54,9 @@ __Fett__ oder **Fett**
 3. Nummerierte Liste drittes Element
 	1. Nummerierte Subliste
 4. Nummerierte Liste viertes Element
+
+- [ ] Checkboxen funktionieren
+- [x] wie Listen
 
 # Links
 
@@ -78,23 +84,31 @@ __Fett__ oder **Fett**
 
 	## Erste Möglichkeit
 
-	![alt text](https://upload.wikimedia.org/wikipedia/commons/9/96/World_Photovoltaics_Installed_Capacity.svg)
+	![alt text](https://img.icons8.com/cotton/64/000000/small-telescope.png)
+
+	[Small Telescope icon](https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
 
 	## Zweite Möglichkeit
 
-	![alt text][PV-Zubau]
+	![alt text][Small Telescope]
 
-	[PV-Zubau]: https://upload.wikimedia.org/wikipedia/commons/9/96/World_Photovoltaics_Installed_Capacity.svg
+	[Small Telescope]: https://img.icons8.com/cotton/64/000000/small-telescope.png
+
+	[Small Telescope icon](https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
 
 ## Erste Möglichkeit
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/9/96/World_Photovoltaics_Installed_Capacity.svg)
+![alt text](https://img.icons8.com/cotton/64/000000/small-telescope.png)
+
+["Small Telescope icon"](https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
 
 ## Zweite Möglichkeit
 
-![alt text][PV-Zubau]
+![alt text][Small Telescope]
 
-[PV-Zubau]: https://upload.wikimedia.org/wikipedia/commons/9/96/World_Photovoltaics_Installed_Capacity.svg
+[Small Telescope]: https://img.icons8.com/cotton/64/000000/small-telescope.png
+
+["Small Telescope icon"](https://icons8.com/icon/64362/small-telescope) by [Icons8](https://icons8.com)
 
 # Code Blöcke und Code Inline
 
@@ -146,7 +160,7 @@ I'm not but `I am!`
 	***
 	funktioniert. Als auch
 	___
-	.
+	Unterstriche.
 
 Sowhol Sterne
 ***
@@ -156,4 +170,4 @@ Unterstriche.
 
 # Credits
 
-[Credits an Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+["Markdown Cheatsheet"](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) by Adam Pritchard | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/)
