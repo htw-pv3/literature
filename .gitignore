@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 # jabref
-.bak
-.sav
+*.bak
+*.sav
