@@ -32,3 +32,6 @@ git add #file
 
 # Alle getrackten Änderungen commiten
 git commit -m „#your_comment“
+
+# Admin
+git config --global core.editor „‘D:/Notepad++/notepad++.exe‘ -multiInst -notabbar -nosession -noPlugin“
