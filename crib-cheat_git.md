@@ -150,7 +150,8 @@ git push -u origin #branch_name
 # File in das Tracking hinzufügen
 git add #file
 
-# Änderungen eines bestimmten files
+# Änderungen eines bestimmten files anzeigen lassen
+git log --follow #file
 
 # Alle getrackten Änderungen commiten
 git commit -m „#your_comment“
