@@ -11,7 +11,7 @@
 ## Git Setup Configuration in GitBash (Open GitBash as Admin)
 
 ### Your Identity
-git config --global user.name "John Doe"
+git config --global user.name "John Doe" <br>
 git config --global user.email johndoe@example.com
 
 ### Your Editor Programm
