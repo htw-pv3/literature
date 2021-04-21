@@ -56,9 +56,7 @@ git mv git_cheat_sheet.txt git_cheat_sheet.md
 ## to the next commit” rather than “add this file to the project”
 git add git_cheat_sheet.md
 
-## Confirm or committing the changes with a message -m and jumping the git add with -a (Adding the -a option to the git commit
-## command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the 
-## git add part from before). It is important to leave a space before # to give the Hashtag or Ticketnumber
+## Confirm or committing the changes with a message -m and jumping the git add with -a (Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part from before). It is important to leave a space before # to give the Hashtag or Ticketnumber
 git commit -a -m "Changing the File extention #6" 
 
 ## Uploading all local commits (changes) to the GitHub server
