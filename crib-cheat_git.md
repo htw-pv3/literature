@@ -234,7 +234,7 @@ Hier können noch weitere hilfreiche Tutorials ergänzt werden.
    - Autor: The Morpheus Tutorials
    - Länge: 6:47 min
    - Datum: 2018-12-13
-   - URL:https://www.youtube.com/watch?v=wSHNvdRjB9Q&list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&index=8
+   - URL: https://www.youtube.com/watch?v=wSHNvdRjB9Q&list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&index=8
    - Keyword: Deutsch, beginner, issues
 
 5. Titel: **Workflow**
