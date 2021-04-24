@@ -74,7 +74,7 @@ git rm Codes_GitBash_So_Far.md
 git commit -m "remove the File #6"
 
 ## See all the Branches
-git branch -av
+git branch -a
 
 ## Creating a new Branch
 git checkout -b feature/gitbash-code-so-far#10
@@ -124,7 +124,7 @@ git pull
 # bezeichnet ein Kommentar und soll nicht mit eingegeben werden
 
 # Alle branches anzeigen
-git brach -a
+git branch -a
 
 # Alles Upstreams anzeigen
 git remote show origin
