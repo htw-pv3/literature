@@ -36,7 +36,7 @@ git clone https://github.com/htw-pv3/literature.git
 ## Cloning the Repository wheather-data in htw-pv3/weather-data:
  git clone https://github.com/htw-pv3/weather-data.git
 
-## going inside the directory literature (C:/git/github/htw-pv3/literature), it will change to master
+## Going inside the directory literature (C:/git/github/htw-pv3/literature), it will change to master
 cd literature
 
 ## Checking the Status of the Files and the changes
