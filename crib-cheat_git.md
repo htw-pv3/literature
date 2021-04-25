@@ -27,7 +27,7 @@ git config --global --edit
 start from
 cd C:/git/github;
 
-## Check that you are under C:/git/github/htw-pv3) otherwise write
+## Check that you are under C:/git/github/htw-pv3, otherwise write
 cd C:/git/github/htw-pv3
 
 ## Cloning the Repository literature in htw-pv3/literature:
