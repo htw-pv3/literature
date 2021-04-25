@@ -156,13 +156,13 @@ I'm not but `I am!`
 
 # Horizontale Linien
 
-	Sowhol
+	Sowohl
 	***
 	funktioniert. Als auch
 	___
 	Unterstriche.
 
-Sowhol Sterne
+Sowohl Sterne
 ***
 funktionieren, als auch
 ___
