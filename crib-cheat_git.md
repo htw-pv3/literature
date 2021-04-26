@@ -51,9 +51,7 @@ git pull
 ## Changing the name or extention of a File
 git mv git_cheat_sheet.txt git_cheat_sheet.md
 
-## TRACKING New Files or STAGING Modified Files: with git add is a multipurpose command — you use it to begin tracking new files, to stage files, and to do other things 
-## like marking merge-conflicted files as resolved. It may be helpful to think of it more as “add precisely this content 
-## to the next commit” rather than “add this file to the project”
+## TRACKING New Files or STAGING Modified Files: with git add is a multipurpose command — you use it to begin tracking new files, to stage files, and to do other things like marking merge-conflicted files as resolved. It may be helpful to think of it more as “add precisely this content to the next commit” rather than “add this file to the project”
 git add git_cheat_sheet.md
 
 ## Confirm or committing the changes with a message -m and jumping the git add with -a (Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part from before). It is important to leave a space before # to give the Hashtag or Ticketnumber
