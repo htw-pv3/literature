@@ -124,7 +124,7 @@ git pull
 # Alle branches anzeigen
 git branch -a
 
-# Alles Upstreams anzeigen
+# Alle Upstreams anzeigen
 git remote show origin
 
 # Auf branch Wechseln
