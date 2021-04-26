@@ -157,6 +157,9 @@ git commit -m „#your_comment“
 # Admin
 git config --global core.editor „‘D:/Notepad++/notepad++.exe‘ -multiInst -notabbar -nosession -noPlugin“
 
+# Information Display Command Guide
+git help
+
 # Literatur zu Git 
 
 Git ist ein Open-Source-Versionskontrollsystem. 
