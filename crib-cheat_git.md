@@ -129,10 +129,10 @@ git brach -a
 # Alles Upstreams anzeigen
 git remote show origin
 
-# Auf branch Wechseln
+# Auf branch wechseln
 git checkout #branch_name
 
-# Auf branch Wechseln und erzeugen, falls esr nicht existiert
+# Auf branch wechseln und erzeugen, falls esr nicht existiert
 git checkout -b #branch_name
 
 # Änderungen auf dem Server überprüfen (server->local)
