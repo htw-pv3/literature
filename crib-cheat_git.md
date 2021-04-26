@@ -33,7 +33,7 @@ cd C:/git/github/htw-pv3
 ## Cloning the Repository literature in htw-pv3/literature:
 git clone https://github.com/htw-pv3/literature.git
 
-## Cloning the Repository wheather-data in htw-pv3/weather-data:
+## Cloning the Repository weather-data in htw-pv3/weather-data:
  git clone https://github.com/htw-pv3/weather-data.git
 
 ## going inside the directory literature (C:/git/github/htw-pv3/literature), it will change to master
