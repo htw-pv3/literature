@@ -97,7 +97,7 @@ git push origin --delete feature/gitbash-code-so-far#10
 git branch -dr feature/gitbash-code-so-far-#10
 
 ## Deleting a Local Branch with mistakes (Just if you had a mistake)
-git checkut master
+git checkout master
 git branch -D feature/gitbash-code-so-far-#10
 
 ## Staging and commiting the Modified File (Updates) before merge (Tracking the File)
