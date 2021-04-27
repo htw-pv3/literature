@@ -249,7 +249,7 @@ Hier können noch weitere hilfreiche Tutorials ergänzt werden.
    
 # Git GUI's
 
-Um die Git-Repo zu visuallisieren und den Überblick auf das Projekt zu schaffen, sind folgend die GUI von Git. (*** nicht empfehlen ***)
+Um die Git-Repo zu visualisieren und den Überblick auf das Projekt zu schaffen, sind folgend die GUI von Git. (*** nicht empfehlen ***)
 
 1. ** Sourcetree ** 
 2. ** Git Extensions ** 
