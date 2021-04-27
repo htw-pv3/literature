@@ -11,7 +11,7 @@
 ## Git Setup Configuration in GitBash (Open GitBash as Admin)
 
 ### Your Identity
-git config --global user.name "John Doe"
+git config --global user.name "John Doe" <br>
 git config --global user.email johndoe@example.com
 
 ### Your Editor Programm
@@ -33,7 +33,7 @@ cd C:/git/github/htw-pv3
 ## Cloning the Repository literature in htw-pv3/literature:
 git clone https://github.com/htw-pv3/literature.git
 
-## Cloning the Repository wheather-data in htw-pv3/weather-data:
+## Cloning the Repository weather-data in htw-pv3/weather-data:
  git clone https://github.com/htw-pv3/weather-data.git
 
 ## Going inside the directory literature (C:/git/github/htw-pv3/literature), it will change to master
@@ -51,9 +51,7 @@ git pull
 ## Changing the name or extention of a File
 git mv git_cheat_sheet.txt git_cheat_sheet.md
 
-## TRACKING New Files or STAGING Modified Files: with git add is a multipurpose command — you use it to begin tracking new files, to stage files, and to do other things 
-## like marking merge-conflicted files as resolved. It may be helpful to think of it more as “add precisely this content 
-## to the next commit” rather than “add this file to the project”
+## TRACKING New Files or STAGING Modified Files: with git add is a multipurpose command — you use it to begin tracking new files, to stage files, and to do other things like marking merge-conflicted files as resolved. It may be helpful to think of it more as “add precisely this content to the next commit” rather than “add this file to the project”
 git add git_cheat_sheet.md
 
 ## Confirm or committing the changes with a message -m and jumping the git add with -a (Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part from before). It is important to leave a space before # to give the Hashtag or Ticketnumber
@@ -72,7 +70,7 @@ git rm Codes_GitBash_So_Far.md
 git commit -m "remove the File #6"
 
 ## See all the Branches
-git branch -av
+git branch -a
 
 ## Creating a new Branch
 git checkout -b feature/gitbash-code-so-far#10
@@ -122,15 +120,15 @@ git pull
 # bezeichnet ein Kommentar und soll nicht mit eingegeben werden
 
 # Alle branches anzeigen
-git brach -a
+git branch -a
 
-# Alles Upstreams anzeigen
+# Alle Upstreams anzeigen
 git remote show origin
 
 # Auf branch Wechseln
 git checkout #branch_name
 
-# Auf branch Wechseln und erzeugen, falls esr nicht existiert
+# Auf branch Wechseln und erzeugen, falls es nicht existiert
 git checkout -b #branch_name
 
 # Änderungen auf dem Server überprüfen (server->local)
@@ -237,7 +235,7 @@ Hier können noch weitere hilfreiche Tutorials ergänzt werden.
    - Autor: The Morpheus Tutorials
    - Länge: 6:47 min
    - Datum: 2018-12-13
-   - URL:https://www.youtube.com/watch?v=wSHNvdRjB9Q&list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&index=8
+   - URL: https://www.youtube.com/watch?v=wSHNvdRjB9Q&list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&index=8
    - Keyword: Deutsch, beginner, issues
 
 5. Titel: **Workflow**
@@ -249,7 +247,7 @@ Hier können noch weitere hilfreiche Tutorials ergänzt werden.
    
 # Git GUI's
 
-Um die Git-Repo zu visuallisieren und den Überblick auf das Projekt zu schaffen, sind folgend die GUI von Git. (*** nicht empfehlen ***)
+Um die Git-Repo zu visualisieren und den Überblick auf das Projekt zu schaffen, sind folgend die GUI von Git. (*** nicht empfehlen ***)
 
 1. ** Sourcetree ** 
 2. ** Git Extensions ** 
