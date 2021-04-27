@@ -27,7 +27,7 @@ git config --global --edit
 start from
 cd C:/git/github;
 
-## Check that you are under C:/git/github/htw-pv3) otherwise write
+## Check that you are under C:/git/github/htw-pv3, otherwise write
 cd C:/git/github/htw-pv3
 
 ## Cloning the Repository literature in htw-pv3/literature:
@@ -36,7 +36,7 @@ git clone https://github.com/htw-pv3/literature.git
 ## Cloning the Repository weather-data in htw-pv3/weather-data:
  git clone https://github.com/htw-pv3/weather-data.git
 
-## going inside the directory literature (C:/git/github/htw-pv3/literature), it will change to master
+## Going inside the directory literature (C:/git/github/htw-pv3/literature), it will change to master
 cd literature
 
 ## Checking the Status of the Files and the changes
@@ -155,6 +155,9 @@ git commit -m „#your_comment“
 # Admin
 git config --global core.editor „‘D:/Notepad++/notepad++.exe‘ -multiInst -notabbar -nosession -noPlugin“
 
+# Information Display Command Guide
+git help
+
 # Literatur zu Git 
 
 Git ist ein Open-Source-Versionskontrollsystem. 
@@ -244,7 +247,7 @@ Hier können noch weitere hilfreiche Tutorials ergänzt werden.
    
 # Git GUI's
 
-Um die Git-Repo zu visuallisieren und den Überblick auf das Projekt zu schaffen, sind folgend die GUI von Git. (*** nicht empfehlen ***)
+Um die Git-Repo zu visualisieren und den Überblick auf das Projekt zu schaffen, sind folgend die GUI von Git. (*** nicht empfehlen ***)
 
 1. ** Sourcetree ** 
 2. ** Git Extensions ** 
