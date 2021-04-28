@@ -107,7 +107,7 @@ git commit -a -m "GitBash_Code_So_Far #10"
 git push --set-upstream origin feature/gitbash-code-so-far-#10
 
 ## Merge the branch after Positiv Review of members (has to be done in GitHub GUI or try the following):
-git merge --no--ff feature/gitbash-code-so-far-#10
+git merge --no-ff feature/gitbash-code-so-far-#10
 
 ## Closing an issue related to the PR in the same repository
 close #issue_number
