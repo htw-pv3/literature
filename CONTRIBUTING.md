@@ -137,9 +137,12 @@ Add the line `Close #<issue-number>` in the description of your PR.
 When it is merged, it [automatically closes](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) the issue. <br>
 Assign a reviewer and get in contact.
 
-#### 4.0. Review the PR
+#### 4.0. Let someone else review your PR
 Follow the GitHub guide [approving a pull request with required reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews).
-Leave a small comment and some nice words of thanks.
+Wait for someone else to review your PR.
+If you are the Reviewer:
+	Check the changes and comment if you would like to change something.
+	If the changes are good, leave a comment and some nice words!
 
 #### 4.1. Merge the PR
 Follow the GitHub guide [merging a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request).
