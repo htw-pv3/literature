@@ -16,7 +16,7 @@ already at place:
   - PV for engineers
 
 - **software**: contains Metadata for the software we work with
-- **git:**  short-description here!
+- **git:**  is a version control software that allows a collaboration of different persons on a project at the same time
 - **Pyhton:** short-description here!
 - **Pv for engineers:** information about pv-systems that empower us to set it up!
 
