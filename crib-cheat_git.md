@@ -33,7 +33,13 @@ cd C:/git/github/htw-pv3
 ## Cloning the Repository literature in htw-pv3/literature:
 git clone https://github.com/htw-pv3/literature.git
 
-## Cloning the Repository weather-data in htw-pv3/weather-data:
+		Guide: how to clone
+		1. Create the desired folder structure on your computer with the directory you want to clone into
+		2. Start git-bash and navigate with the "cd" command" into the created directory
+		3. Go to github.com to the appropriate repository (in this case https://github.com/htw-pv3/literature) and click on the green drop down button called "code" in the top left corner and copy the https
+		4. enter the command "git clone" in git-bash with the link (git clone https://github.com/htw-pv3/literature.git)
+		
+## Cloning the Repository wheather-data in htw-pv3/weather-data:
  git clone https://github.com/htw-pv3/weather-data.git
 
 ## Going inside the directory literature (C:/git/github/htw-pv3/literature), it will change to master
