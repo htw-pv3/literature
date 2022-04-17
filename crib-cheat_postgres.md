@@ -30,7 +30,7 @@
 Link to the Demo-Database where you can practice SQL-Commands: https://www.w3schools.com/sql/sql_select.asp
 
 
-# Connect to your database with psql or PgAdmin. Run the following SQL. You need only install the features you want:
+# Connect to your database with psql or PgAdmin. Run the following SQL. You only need to install the features you want:
 
 -- Enable PostGIS (as of 3.0 contains just geometry/geography)
 

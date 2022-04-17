@@ -20,7 +20,7 @@
 # i can comment with pound sign . yes, that's also comment
 
 # Assigning string to a variable
-
+ 
 a = "This is a string"
 
 print(a)
@@ -31,7 +31,7 @@ print(a)
 # Declaring a list
 L = [1, "a" , "string" ,3]
 
-print L
+print (L)
 
 ## The output is:
 
