@@ -108,8 +108,8 @@ Write a good `commit message`:
 Examples of commit message: `Added function with some method #42` or `Update documentation for commit messages #1`
 
 #### 2.4 Fix your latest commit message
-You want to improve your latest commit message? 
-Your latest commit is not pushed yet? <br>
+Do you want to improve your latest commit message? 
+Is your latest commit not pushed yet? <br>
 Edit the commit message of your latest commit:
 
 ```bash
