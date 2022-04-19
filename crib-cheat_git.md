@@ -72,7 +72,7 @@ start notepad++ Codes_GitBash_So_Far.md
 ## Removing a File 
 git rm Codes_GitBash_So_Far.md
 
-## Commiting the delete of the file
+## Committing the delete of the file
 git commit -m "remove the File #6"
 
 ## See all the Branches
