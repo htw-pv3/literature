@@ -20,7 +20,7 @@
     
     __Fett__ oder **Fett**
     
-    ~~durgestrichen~~
+    ~~durchgestrichen~~
     
     *__Kombiniert__*
 
@@ -28,7 +28,7 @@ _Kursiv_ oder *Kursiv*
 
 __Fett__ oder **Fett**
 
-~~durgestrichen~~
+~~durchgestrichen~~
 
 *__Kombiniert__*
 
