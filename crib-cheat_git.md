@@ -11,7 +11,7 @@
 ## Git Setup Configuration in GitBash (Open GitBash as Admin)
 
 ### Your Identity
-git config --global user.name "John Doe" <br>
+git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 
 ### Your Editor Programm
@@ -33,12 +33,6 @@ cd C:/git/github/htw-pv3
 ## Cloning the Repository literature in htw-pv3/literature:
 git clone https://github.com/htw-pv3/literature.git
 
-		Guide: how to clone
-		1. Create the desired folder structure on your computer with the directory you want to clone into
-		2. Start git-bash and navigate with the "cd" command" into the created directory
-		3. Go to github.com to the appropriate repository (in this case https://github.com/htw-pv3/literature) and click on the green drop down button called "code" in the top left corner and copy the https
-		4. enter the command "git clone" in git-bash with the link (git clone https://github.com/htw-pv3/literature.git)
-		
 ## Cloning the Repository wheather-data in htw-pv3/weather-data:
  git clone https://github.com/htw-pv3/weather-data.git
 
@@ -57,7 +51,9 @@ git pull
 ## Changing the name or extention of a File
 git mv git_cheat_sheet.txt git_cheat_sheet.md
 
-## TRACKING New Files or STAGING Modified Files: with git add is a multipurpose command — you use it to begin tracking new files, to stage files, and to do other things like marking merge-conflicted files as resolved. It may be helpful to think of it more as “add precisely this content to the next commit” rather than “add this file to the project”
+## TRACKING New Files or STAGING Modified Files: with git add is a multipurpose command — you use it to begin tracking new files, to stage files and to do other things 
+## like marking merge-conflicted files as resolved. It may be helpful to think of it more as “add precisely this content 
+## to the next commit” rather than “add this file to the project”
 git add git_cheat_sheet.md
 
 ## Confirm or committing the changes with a message -m and jumping the git add with -a (Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part from before). It is important to leave a space before # to give the Hashtag or Ticketnumber
@@ -76,7 +72,7 @@ git rm Codes_GitBash_So_Far.md
 git commit -m "remove the File #6"
 
 ## See all the Branches
-git branch -a
+git branch -av
 
 ## Creating a new Branch
 git checkout -b feature/gitbash-code-so-far#10
@@ -133,6 +129,7 @@ git remote show origin
 
 # Switch to branch
 git checkout #branch_name
+
 
 # Switch to branch and create if it does not exist
 git checkout -b #branch_name
