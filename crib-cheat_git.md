@@ -91,12 +91,12 @@ git commit -a -m "GitBash_Code_So_Far #10"
 ## Upload the remote changes (Commits) for a review and follow with a PullRequest(PR)
 git push --set-upstream origin feature/gitbash-code-so-far#10
 
-## Deleting a Remote Branch (Just if you had a mistake and you push (Published) the branch already)
+## Deleting a Remote Branch (Just if you made a mistake and you pushed (published) the branch already)
 git push origin --delete feature/gitbash-code-so-far#10
 ## Or
 git branch -dr feature/gitbash-code-so-far-#10
 
-## Deleting a Local Branch with mistakes (Just if you had a mistake)
+## Deleting a Local Branch with mistakes (Just if you made a mistake)
 git checkout master
 git branch -D feature/gitbash-code-so-far-#10
 
