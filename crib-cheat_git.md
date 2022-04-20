@@ -119,39 +119,40 @@ git checkout master
 git pull
 
 
-# bezeichnet ein Kommentar und soll nicht mit eingegeben werden
+# denotes a comment and should not be entered with it
 
-# Alle branches anzeigen
-git brach -a
+# Show all branches
+git branch -a
 
-# Alles Upstreams anzeigen
+# Show all upstreams
 git remote show origin
 
-# Auf branch Wechseln
+# Switch to branch
 git checkout #branch_name
 
-# Auf branch Wechseln und erzeugen, falls esr nicht existiert
+
+# Switch to branch and create if it does not exist
 git checkout -b #branch_name
 
-# Änderungen auf dem Server überprüfen (server->local)
+# Check changes on the server (server->local)
 git fetch
 
-# Änderung vom Server übertragen (server->local->merge)
+# Transfer change from server (server->local->merge)
 git pull
 
-# Änderungen auf den Server übertragen (local->server)
+# Transfer changes to the server (local->server)
 git push
 
-# Änderungen auf einen neuen Branch auf dem Server übertragen (local->server)
+# Transfer changes to a new branch on the server (local->server)
 git push -u origin #branch_name
 
-# File in das Tracking hinzufügen
+# Add file to the tracking
 git add #file
 
-# Änderungen eines bestimmten files anzeigen lassen
+# Display changes of a specific file
 git log --follow #file
 
-# Alle getrackten Änderungen commiten
+# Commit all tracked changes
 git commit -m „#your_comment“
 
 # Admin
@@ -160,96 +161,96 @@ git config --global core.editor „‘D:/Notepad++/notepad++.exe‘ -multiInst -
 # Information Display Command Guide
 git help
 
-# Literatur zu Git 
+# Literature on Git 
 
-Git ist ein Open-Source-Versionskontrollsystem. 
-Die folgenden Links enthalten Anleitungen zu git und github. 
-Sie fassen wesentliche Funktionen der Software zusammen und zeigen die häufigsten Befehle, insbesondere für git bash.
+Git is an open source version control system. 
+The following links contain tutorials for git and github. 
+They summarize essential features of the software and show the most common commands, especially for git bash.
 
-1. Titel: **Hello World - Github Guides**
+1. Title: **Hello World - Github Guides**
 
    - URL: https://guides.github.com/activities/hello-world/
    - Keyword: Deutsch, Verwendung der Git ohne Kommandozeilen, Beginner
 
-2. Titel: **Git Cheat Sheet**
+2. Title: **Git Cheat Sheet**
 
    - URL: https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
    - Comment: GIT Cheat Sheet von GitHub
    - Keyword: Spickzettell
 
-3. Titel: **Pro Git book**
+3. Title: **Pro Git book**
 
    - Autor: Scott Chacon and Ben Straub
    - URL: https://git-scm.com/book/en/v2
    - Keyword: Englisch, Advance, pdf
    
-4. Titel: **GIT-Tutorium Teil 1**
+4. Title: **GIT-Tutorium Teil 1**
 
    - Autor: Sujeevan Vijayakumaran
    - Date: 12/2014
    - URL: http://www.freiesmagazin.de/mobil/freiesMagazin-2014-12-bilder.html#fm_14_12_git_teil1
    - Keyword: Deutsch, advance
 
-5. Titel: **GIT-Tutorium Teil 2**
+5. Title: **GIT-Tutorium Teil 2**
    - Autor: Sujeevan Vijayakumaran
    - Date: 01/2015
    - URL: http://www.freiesmagazin.de/mobil/freiesMagazin-2015-01-bilder.html#fm_15_01_git_teil2
    - Keyword: Deutsch, advance
    
-6. Titel: **GIT-Tutorium Teil 3**
+6. Title: **GIT-Tutorium Teil 3**
    - Autor: Sujeevan Vijayakumaran
    - Date: 02/2015
    - URL: http://www.freiesmagazin.de/mobil/freiesMagazin-2015-02-bilder.html#fm_15_02_git_teil3
    - Keyword: Deutsch, advance
 
-7. Titel: **Git Merge**
+7. Title: **Git Merge**
    - Autor: Webseite 04/2016
    - URL: https://www.atlassian.com/git/tutorials/using-branches/git-merge
    - Keyword: Englisch, beginner
    
-# Video-Tutorials für Git/GitHub** 
+# Video tutorials for Git/GitHub**. 
 
-Zu einigen Themenbereichen finden sich bei YouTube einige Erklärungenvideos rund um Git/GitHub.
-Hier können noch weitere hilfreiche Tutorials ergänzt werden.
+For some topics you can find some explanation videos around Git/GitHub on YouTube.
+More helpful tutorials can be added here.
  
-1. Titel: **Lokale Repositories**
-   - Autor: The Morpheus Tutorials
-   - Länge: 8:43 min
-   - Datum: 2017-01-31
+1. Title: **Lokale Repositories**
+   - Author: The Morpheus Tutorials
+   - Duration: 8:43 min
+   - Date: 2017-01-31
    - URL: https://www.youtube.com/watch?v=9RbU-h0NH0A&list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&index=1
    - Keyword: Deutsch, beginner, repositories 
    
-2. Titel: **Branches, Merges, etc**
+2. Title: **Branches, Merges, etc**
    - Autor: The Morpheus Tutorials
-   - Länge: 10:06 min
-   - Datum: 2017-02-10
+   - Duration: 10:06 min
+   - Date: 2017-02-10
    - URL: https://www.youtube.com/watch?v=ZVoSBA03Tdc&list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&index=3
    - Keyword: Deutsch, beginner, branches 
    
-3. Titel: **Pull-Requests**
+3. Title: **Pull-Requests**
    - Autor: The Morpheus Tutorials
-   - Länge: 10:16 min
-   - Datum: 2018-12-11
+   - Duration: 10:16 min
+   - Date: 2018-12-11
    - URL: https://www.youtube.com/watch?v=l8MZCnrSeQQ&list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&index=6
    - Keyword: Deutsch, beginner, pull
    
-4. Titel: **Issues**
+4. Title: **Issues**
    - Autor: The Morpheus Tutorials
-   - Länge: 6:47 min
-   - Datum: 2018-12-13
-   - URL:https://www.youtube.com/watch?v=wSHNvdRjB9Q&list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&index=8
+   - Duration: 6:47 min
+   - Date: 2018-12-13
+   - URL: https://www.youtube.com/watch?v=wSHNvdRjB9Q&list=PLNmsVeXQZj7rbmmqb1Lt_RGU4DEhelTrR&index=8
    - Keyword: Deutsch, beginner, issues
 
-5. Titel: **Workflow**
+5. Title: **Workflow**
    - Autor: Pilzschaf
-   - Länge: 12:44 min
-   - Datum: 2016-10-08
+   - Duration: 12:44 min
+   - Date: 2016-10-08
    - URL: https://www.youtube.com/watch?v=hSbJaIdqwKg
    - Keyword: Deutsch, beginner, workflow
    
 # Git GUI's
 
-Um die Git-Repo zu visualisieren und den Überblick auf das Projekt zu schaffen, sind folgend die GUI von Git. (*** nicht empfehlen ***)
+To visualize the Git repo and create the overview on the project, the following are the GUI of Git. (*** not recommended ***)
 
 1. ** Sourcetree ** 
 2. ** Git Extensions ** 
@@ -257,4 +258,3 @@ Um die Git-Repo zu visualisieren und den Überblick auf das Projekt zu schaffen,
 4. ** GitBlade **
 5. ** SmartGit **
 6. ** ungit **
-     
