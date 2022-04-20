@@ -51,6 +51,11 @@ Update with the latest version:
 git pull
 ```
 
+Check status:
+```bash
+git status
+```
+
 #### 2.1. Create a new (local) branch
 ```bash
 git checkout -b feature-1314-my-feature
