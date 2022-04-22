@@ -68,7 +68,7 @@ start notepad++ Codes_GitBash_So_Far.md
 ## Removing a File 
 git rm Codes_GitBash_So_Far.md
 
-## Commiting the delete of the file
+## Committing the delete of the file
 git commit -m "remove the File #6"
 
 ## See all the Branches
@@ -83,7 +83,7 @@ start notepad++ Codes_GitBash_So_Far.md
 ## Staging the created and Modified File (Tracking the File)
 git add Codes_GitBash_So_Far.md
 
-## Commiting (Contribute) The Tracked changes
+## Committing (Contribute) The Tracked changes
 git commit -m "GitBash_Code_So_Far #10"
 ## Or jumping the step of tracking the File just with -a
 git commit -a -m "GitBash_Code_So_Far #10"
