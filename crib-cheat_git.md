@@ -68,7 +68,7 @@ start notepad++ Codes_GitBash_So_Far.md
 ## Removing a File 
 git rm Codes_GitBash_So_Far.md
 
-## Committing the delete of the file
+## Commiting the delete of the file
 git commit -m "remove the File #6"
 
 ## See all the Branches
@@ -83,7 +83,7 @@ start notepad++ Codes_GitBash_So_Far.md
 ## Staging the created and Modified File (Tracking the File)
 git add Codes_GitBash_So_Far.md
 
-## Committing (Contribute) The Tracked changes
+## Commiting (Contribute) The Tracked changes
 git commit -m "GitBash_Code_So_Far #10"
 ## Or jumping the step of tracking the File just with -a
 git commit -a -m "GitBash_Code_So_Far #10"
@@ -247,6 +247,13 @@ More helpful tutorials can be added here.
    - Date: 2016-10-08
    - URL: https://www.youtube.com/watch?v=hSbJaIdqwKg
    - Keyword: Deutsch, beginner, workflow
+   
+6. Titel: *Crash Course*
+   - Autor: freeCodeCamp.org
+   - Länge: 01:08:29 min
+   - Datum: 2020-05-28
+   - URL: https://youtu.be/RGOj5yH7evk
+   - Keyword: Englisch, Beginners, Crash Course  
    
 # Git GUI's
 
