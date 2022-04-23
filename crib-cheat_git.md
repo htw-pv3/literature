@@ -248,6 +248,13 @@ More helpful tutorials can be added here.
    - URL: https://www.youtube.com/watch?v=hSbJaIdqwKg
    - Keyword: Deutsch, beginner, workflow
    
+6. Titel: *Crash Course*
+   - Autor: freeCodeCamp.org
+   - Länge: 01:08:29 min
+   - Datum: 2020-05-28
+   - URL: https://youtu.be/RGOj5yH7evk
+   - Keyword: Englisch, Beginners, Crash Course  
+   
 # Git GUI's
 
 To visualize the Git repo and create the overview on the project, the following are the GUI of Git. (*** not recommended ***)
