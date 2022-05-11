@@ -96,14 +96,14 @@ Adding the -a option to the git commit command makes Git automatically stage eve
 >git push --set-upstream origin feature/gitbash-code-so-far#10
 
 ### Deleting a Remote Branch
-*Just if you had a mistake and you push (Published) the branch already*
+*Just if you made a mistake and you pushed (published) the branch already*
 >git push origin --delete feature/gitbash-code-so-far#10
 
 Or
 >git branch -dr feature/gitbash-code-so-far-#10
 
 ### Deleting a Local Branch with mistakes
-*Just if you had a mistake*
+*Just if you made a mistake*
 >git checkout master <br>
 git branch -D feature/gitbash-code-so-far-#10
 
