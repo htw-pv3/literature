@@ -1,7 +1,9 @@
 # literature
+
 ## Repo Description
-This Repository contains literature about the "PV3 - Solaranlagen und -kraftwerke" lecture at HTW-Berlin. It contains cheat-sheets for the different software tools which are used during the course.  
-  
+This Repository contains literature about the "PV3 - Solaranlagen und -kraftwerke" lecture at HTW-Berlin. 
+It contains crib-sheets for the different software tools which are used during the course.  
+
 During the course the students will write a joint protocol in which information about the weekly lectures is documented. These documents can be found within the folder minutes.
 
 ## Additional Information
