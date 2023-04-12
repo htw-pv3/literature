@@ -1,3 +1,6 @@
+<!--SPDX-License-Identifier: MIT-->
+<!--Version: v1.0.0-->
+
 # Collaborative Development
 
 ## Prerequisites
@@ -52,6 +55,7 @@ git pull
 ```
 
 #### 2.1. Create a new (local) branch
+Create a new branch:
 ```bash
 git checkout -b feature-1314-my-feature
 ```
@@ -91,10 +95,21 @@ Examples of branch names: `feature-42-add-new-ontology-class` or `feature-911-br
 On first commit to the repo:
 - Add your name and details to CITATION.cff
 
+Check branch status:
+```bash
+git status
+```
+
 #### 2.3. Commit your changes 
+If the file does not exist on the remote server yet, use:
+```bash
+git add filename.md
+```
+
+Then commit regularly with:
 ```bash
 git commit filename.md
-``` 
+```
 
 Write a good `commit message`:
 - "If applied, this commit will ..."
@@ -108,10 +123,9 @@ Write a good `commit message`:
 Examples of commit message: `Added function with some method #42` or `Update documentation for commit messages #1`
 
 #### 2.4 Fix your latest commit message
-Do you want to improve your latest commit message? 
+Do you want to improve your latest commit message? <br>
 Is your latest commit not pushed yet? <br>
 Edit the commit message of your latest commit:
-
 ```bash
 git commit --amend
 ```
@@ -119,30 +133,32 @@ git commit --amend
 ### 3. Push your commits
 Push your `local` branch on the remote server `origin`. <br>
 If your branch does not exist on the remote server yet, use:
-
 ```bash
 git push --set-upstream origin feature-1314-my-feature
 ```
 
 Then push regularly with:
-
 ```bash
 git push
 ```
 
 ### 4. Submit a pull request (PR)
-Follow the GitHub guide [creating-a-pull-request](https://help.github.com/en/articles/creating-a-pull-request).
+Follow the GitHub guide [creating-a-pull-request](https://help.github.com/en/articles/creating-a-pull-request). <br>
 The PR should be directed: `base: develop` <- `compare: feature-1-collaboration`. <br>
 Add the line `Close #<issue-number>` in the description of your PR.
 When it is merged, it [automatically closes](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) the issue. <br>
 Assign a reviewer and get in contact.
 
 #### 4.0. Let someone else review your PR
-Follow the GitHub guide [approving a pull request with required reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews).
-Wait for someone else to review your PR.
-If you are the Reviewer:
-	Check the changes and comment if you would like to change something.
-	If the changes are good, leave a comment and some nice words!
+Follow the GitHub guide [approving a pull request with required reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews). <br>
+Assign one reviewer or a user group and get into contact.
+
+If you are the reviewer:
+- Check the changes in all corresponding files.
+- Checkout the branch and run code.
+- Comment if you would like to change something (Use `Request changes`)
+- If all tests pass and all changes are good, `Approve` the PR. 
+- Leave a comment and some nice words!
 
 #### 4.1. Merge the PR
 Follow the GitHub guide [merging a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request).
