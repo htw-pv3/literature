@@ -65,7 +65,8 @@ Naming convention for branches: `type`-`issue-nr`-`short-description`
 * hotfix - includes small improvements before an release, should be branched from a release branch
 * release - includes the current version to be released
 
-The majority of the development will be done in `feature` branches.
+The majority of the development will be done in `feature` branches. For further information on Branches click the link below.
+https://nvie.com/posts/a-successful-git-branching-model/
 
 ##### `issue-nr`
 The `issueNumber` should be taken from Step 1. Do not use the "#". 
