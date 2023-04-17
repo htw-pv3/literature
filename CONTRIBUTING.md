@@ -46,7 +46,7 @@ Make a checklist for all needed steps if possible.
 #### 2.0. Get the latest version of the `develop` branch
 Load the `develop branch`:
 ```bash
-git checkout develop
+git checkout dev
 ```
 
 Update with the latest version:
