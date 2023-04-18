@@ -47,9 +47,6 @@ cd C:/git/github;
 ### Checking the Status and the changes associated with users and Structure of branches (Tree form with content and code)
 >gitk
 
-### Update of the Info in the Folder (Download all the updated files from the server)
->git pull
-
 ### Changing the name or extention of a File
 >git mv git_cheat_sheet.txt git_cheat_sheet.md
 
@@ -61,9 +58,6 @@ like marking merge-conflicted files as resolved. It may be helpful to think of i
 ### Confirm or committing the changes with a message -m and jumping the git add with -a
 Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part from before. *It is important to leave a space before # to give the Hashtag or Ticketnumber*
 >git commit -a -m "Changing the File extension #6"
-
-### Uploading all local commits (changes) to the GitHub server
->git push
 
 ### Creating a new File in the actual Folder and open it with the editor
 >start notepad++ Codes_GitBash_So_Far.md
@@ -83,17 +77,13 @@ Adding the -a option to the git commit command makes Git automatically stage eve
 ### Creating a new File in the actual Branch
 >start notepad++ Codes_GitBash_So_Far.md
 
-### Staging the created and Modified File (Tracking the File)
->git add Codes_GitBash_So_Far.md
-
 ### Commiting (Contribute) The Tracked changes
 >git commit -m "GitBash_Code_So_Far #10"
 
 ### Or jumping the step of tracking the File just with -a
 >git commit -a -m "GitBash_Code_So_Far #10"
 
-### Upload the remote changes (Commits) for a review and follow with a PullRequest(PR)
->git push --set-upstream origin feature/gitbash-code-so-far#10
+
 
 ### Deleting a Remote Branch
 *Just if you made a mistake and you pushed (published) the branch already*
@@ -122,10 +112,6 @@ git branch -D feature/gitbash-code-so-far-#10
 ### Changing to the master or dev Branch
 >git checkout master ***OR*** dev
 
-### Update the changes in the Repository (Folder)
-Download all the updated files from the remote server
->git pull
-
 <!--- denotes a comment and should not be entered with it --->
 
 ### Show all branches
@@ -146,14 +132,11 @@ Download all the updated files from the remote server
 ### Transfer change from server (server->local->merge)
 >git pull
 
-### Transfer changes to the server (local->server)
+### Transfer changes (commits) to the server (local->server)
 >git push
 
 ### Transfer changes to a new branch on the server (local->server)
 >git push -u origin #branch_name
-
-### Add file to the tracking
->git add #file
 
 ### Display changes of a specific file
 >git log --follow #file
