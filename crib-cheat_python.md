@@ -1,23 +1,23 @@
 
-# Python/conda
-[conda-cheat-sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+# Python/Conda
+[Conda-cheat-sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
 ### pandas
 
 [pandas-cheat-sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
 
-### matplotlib
+### Matplotlib
 
-[matplotlib-cheat-sheet](https://python-graph-gallery.com/wp-content/uploads/Matplotlib_cheatsheet_datacamp.png)
+[Matplotlib-cheat-sheet](https://python-graph-gallery.com/wp-content/uploads/Matplotlib_cheatsheet_datacamp.png)
 
-### seaborn
+### Seaborn
 
-[seaborn-cheat-sheat](https://python-graph-gallery.com/wp-content/uploads/Seaborn_Cheatsheet_Datacamp.png)
-
-
+[Seaborn-cheat-sheat](https://python-graph-gallery.com/wp-content/uploads/Seaborn_Cheatsheet_Datacamp.png)
 
 
-# i can comment with pound sign . yes, that's also comment
+
+
+# I can comment with pound sign. Yes, that's also comment
 
 # Assigning string to a variable
  
@@ -25,7 +25,7 @@ a = "This is a string"
 
 print(a)
 
-## The output is : This is string
+## The output is: This is string
 
 
 # Declaring a list
@@ -83,32 +83,32 @@ print (tup)
   not Logical NOT: True if operand is false 	not x
 
 
-# python program to illustrate If statement
+# Python program to illustrate If statement
 i = 10
 
 if (i < 15):
 
    print ("10 is less than 15")
 
-## The output is : 10 is less than 15
+## The output is: 10 is less than 15
 
 
-# if- else
+# if-else
 
-## if we want to do something else if the condition is false.
+## If we want to do something else if the condition is false.
 i = 20;
 
 if (i < 15):
 
     print ("i is smaller than 15")
 
-    print ("i'm in if Block")
+    print ("I'm in if Block")
 
 else:
 
     print ("i is greater than 15")
 
-## The output is : i is greater than 15
+## The output is: i is greater than 15
 
 
 # if-elif-else ladder
@@ -133,7 +133,7 @@ else:
 
     print ("i is not present")
 
-## The output is : i is 20
+## The output is: i is 20
 
 
 # Iterations in Python
@@ -147,7 +147,7 @@ while (i < 10):
 
     print i,
 
-## The output is : 2 3 4 5 6 7 8 9 10
+## The output is: 2 3 4 5 6 7 8 9 10
 
 
 # Iteration by for loop on list
@@ -158,7 +158,7 @@ for  i in L:
 
     print i,
 
-## The output is : 1 4 5 7 8 9
+## The output is: 1 4 5 7 8 9
 
 
 # We can create our own functions!A simple Python function to check whether x is even or odd
@@ -176,4 +176,4 @@ def evenOdd( x ):
 ## Driver code
   evenOdd(3)
   
-## Output is : odd
+## Output is: odd
