@@ -150,8 +150,8 @@ When it is merged, it [automatically closes](https://help.github.com/en/github/m
 Assign a reviewer and get in contact.
 
 #### 4.0. Let someone else review your PR
-Follow the GitHub guide [approving a pull request with required reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews). <br>
-Assign one reviewer or a user group and get into contact.
+Follow the GitHub guide [approving a pull request with required reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews).
+Wait for someone else to review your PR.
 
 If you are the reviewer:
 - Check the changes in all corresponding files.
