@@ -1,6 +1,8 @@
 # literature
+
 ## Repo Description
-This Repository contains literature about the "PV3 - Solaranlagen und -kraftwerke" lecture at HTW-Berlin. It contains cheat-sheets for the different software tools which are used during the course.  
+This Repository contains literature about the "PV3 - Solaranlagen und -kraftwerke" lecture at HTW-Berlin.
+It contains cheat-sheets for the different software tools which are used during the course.  
   
 During the course the students will write a joint protocol in which information about the weekly lectures is documented. There is an Etherpad document for the lecture (to be found at the the following link: https://etherpad.wikimedia.org/p/htw-pv3-2023) to which everyone has access. The joint protocol from 2020 can be found as example in the folder minutes. The joint protocol from this year is only available via the link. There are two other Etherpad documents, one for the weakly tasks and one for the code.
 

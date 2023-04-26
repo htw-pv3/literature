@@ -17,7 +17,7 @@
 
 
 
-# i can comment with pound sign . yes, that's also comment
+# I can comment with pound sign. Yes that's also comment.
 
 # Assigning string to a variable
  
@@ -25,7 +25,7 @@ a = "This is a string"
 
 print(a)
 
-## The output is : This is string
+## The output is: This is string
 
 
 # Declaring a list
@@ -47,9 +47,9 @@ print (tup)
  
 ### Tuples are like lists but they cannot be changed.
 
-# Python Operators
+# Python operators
 
-  ## Arithmetic Operators
+  ## Arithmetic operators
   '+'  Addition:	x + y
   
   '-'  Subtraction: 	x - y
@@ -62,8 +62,8 @@ print (tup)
 
   ** Power :  	x ** y
 
-  ## Relational Operators
-  > 	Greater than:  	x > y
+  ## Relational operators
+  >  Greater than: 	x > y
   
   <  Less than: 	x < y
   
@@ -76,26 +76,26 @@ print (tup)
   <= 	Less than or equal to:  	x <= y
 
   ## Logical operators
-  and Logical AND: True if both the operands are true 	x and y
+  and	Logical AND: True if both the operands are true 	x and y
   
-  or 	Logical OR: True if either of the operands is true 	x or y
+  or	Logical OR: True if either of the operands is true 	x or y
   
-  not Logical NOT: True if operand is false 	not x
+  not	Logical NOT: True if operand is false 	not x
 
 
-# python program to illustrate If statement
+# Python program to illustrate "if" statement
 i = 10
 
 if (i < 15):
 
    print ("10 is less than 15")
 
-## The output is : 10 is less than 15
+## The output is: 10 is less than 15
 
 
 # if- else
 
-## if we want to do something else if the condition is false.
+## Provided the "if" condition is false, and we want to do run a different command, we can use "else":
 i = 20;
 
 if (i < 15):
@@ -108,12 +108,12 @@ else:
 
     print ("i is greater than 15")
 
-## The output is : i is greater than 15
+## The output is: i is greater than 15
 
 
 # if-elif-else ladder
 
- ## Here,you can decide among multiple options
+ ## Here you can decide among multiple options
 
 i = 20
 
@@ -133,12 +133,12 @@ else:
 
     print ("i is not present")
 
-## The output is : i is 20
+## The output is: i is 20
 
 
 # Iterations in Python
 
-## Iteration by while loop for a condition
+## Iteration by "while" loop for a condition
 i = 1
 
 while (i < 10):
@@ -147,10 +147,10 @@ while (i < 10):
 
     print i,
 
-## The output is : 2 3 4 5 6 7 8 9 10
+## The output is: 2 3 4 5 6 7 8 9 10
 
 
-# Iteration by for loop on list
+# Iteration by for "loop" on list
 
 L = [1, 4, 5, 7, 8, 9]
 
@@ -158,10 +158,10 @@ for  i in L:
 
     print i,
 
-## The output is : 1 4 5 7 8 9
+## The output is: 1 4 5 7 8 9
 
 
-# We can create our own functions!A simple Python function to check whether x is even or odd
+# We can create our own functions! A simple Python function to check whether x is even or odd.
 
 def evenOdd( x ):
 
@@ -176,4 +176,4 @@ def evenOdd( x ):
 ## Driver code
   evenOdd(3)
   
-## Output is : odd
+## Output is: odd
