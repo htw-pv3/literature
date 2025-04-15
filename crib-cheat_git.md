@@ -237,7 +237,7 @@ More helpful tutorials can be added here.
    - URL: https://www.youtube.com/watch?v=hSbJaIdqwKg
    - Keyword: Deutsch, beginner, workflow
    
-6. Titel: *Crash Course*
+6. Titel: **Crash Course**
    - Autor: freeCodeCamp.org
    - Länge: 01:08:29 min
    - Datum: 2020-05-28
