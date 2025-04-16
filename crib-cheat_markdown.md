@@ -20,7 +20,7 @@
     
     __Fett__ oder **Fett**
     
-    ~~durgestrichen~~
+    ~~durchgestrichen~~
     
     *__Kombiniert__*
 
@@ -28,7 +28,7 @@ _Kursiv_ oder *Kursiv*
 
 __Fett__ oder **Fett**
 
-~~durgestrichen~~
+~~durchgestrichen~~
 
 *__Kombiniert__*
 
@@ -156,13 +156,13 @@ I'm not but `I am!`
 
 # Horizontale Linien
 
-	Sowhol
+	Sowohl
 	***
 	funktioniert. Als auch
 	___
 	Unterstriche.
 
-Sowhol Sterne
+Sowohl Sterne
 ***
 funktionieren, als auch
 ___
