@@ -8,6 +8,7 @@
 
 [git-cheat-sheet by tower](https://user-images.githubusercontent.com/14353512/80648952-5fb73080-8a71-11ea-8c5a-1297b1c4a9fd.png)
 
+
 ## Git Setup Configuration in GitBash (Open GitBash as Admin)
 
 ### Your Identity
@@ -237,7 +238,7 @@ More helpful tutorials can be added here.
    - URL: https://www.youtube.com/watch?v=hSbJaIdqwKg
    - Keyword: Deutsch, beginner, workflow
    
-6. Titel: *Crash Course*
+6. Titel: **Crash Course**
    - Autor: freeCodeCamp.org
    - Länge: 01:08:29 min
    - Datum: 2020-05-28
