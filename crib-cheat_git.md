@@ -103,7 +103,7 @@ git branch -D feature/gitbash-code-so-far-#10
 ### Upload the remote changes (Commits) to the remote already created PullRequest(PR)
 >git push --set-upstream origin feature/gitbash-code-so-far-#10
 
-### Merge the branch after Positiv Review of members (has to be done in GitHub GUI or try the following):
+## Merge the branch after Positiv Review of members (has to be done in GitHub GUI or try the following):
 >git merge --no--ff feature/gitbash-code-so-far-#10
 
 ### Closing an issue related to the PR in the same repository
