@@ -8,6 +8,7 @@
 
 [git-cheat-sheet by tower](https://user-images.githubusercontent.com/14353512/80648952-5fb73080-8a71-11ea-8c5a-1297b1c4a9fd.png)
 
+
 ## Git Setup Configuration in GitBash (Open GitBash as Admin)
 
 ### Your Identity
@@ -100,10 +101,10 @@ git branch -D feature/gitbash-code-so-far-#10
 ### Staging and commiting the Modified File (Updates) before merge (Tracking the File)
 >git commit -a -m "GitBash_Code_So_Far #10"
 
-### Upload the remote changes (Commits) to the remote already created PullRequest(PR)
+### Uploading the remote changes (Commits) to the remote already created PullRequest(PR)
 >git push --set-upstream origin feature/gitbash-code-so-far-#10
 
-### Merge the branch after Positiv Review of members (has to be done in GitHub GUI or try the following):
+### Merging the branch after Positiv Review of members (has to be done in GitHub GUI or try the following):
 >git merge --no--ff feature/gitbash-code-so-far-#10
 
 ### Closing an issue related to the PR in the same repository
@@ -114,22 +115,22 @@ git branch -D feature/gitbash-code-so-far-#10
 
 <!--- denotes a comment and should not be entered with it --->
 
-### Show all branches
+### Showing all branches
 >git branch -a
 
-### Show all upstreams
+### Showing all upstreams
 >git remote show origin
 
-### Switch to branch
+### Switching to branch
 >git checkout #branch_name
 
-### Switch to branch and create if it does not exist
+### Switching to branch and create if it does not exist
 >git checkout -b #branch_name
 
-### Check changes on the server (server->local)
+### Checking changes on the server (server->local)
 >git fetch
 
-### Transfer change from server (server->local->merge)
+### Transfering change from server (server->local->merge)
 >git pull
 
 ### Transfer changes (commits) to the server (local->server)
@@ -237,7 +238,7 @@ More helpful tutorials can be added here.
    - URL: https://www.youtube.com/watch?v=hSbJaIdqwKg
    - Keyword: Deutsch, beginner, workflow
    
-6. Titel: *Crash Course*
+6. Titel: **Crash Course**
    - Autor: freeCodeCamp.org
    - Länge: 01:08:29 min
    - Datum: 2020-05-28
