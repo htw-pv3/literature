@@ -101,10 +101,10 @@ git branch -D feature/gitbash-code-so-far-#10
 ### Staging and commiting the Modified File (Updates) before merge (Tracking the File)
 >git commit -a -m "GitBash_Code_So_Far #10"
 
-### Uploading the remote changes (Commits) to the remote already created PullRequest(PR)
+### Upload the remote changes (Commits) to the remote already created PullRequest(PR)
 >git push --set-upstream origin feature/gitbash-code-so-far-#10
 
-### Merging the branch after Positiv Review of members (has to be done in GitHub GUI or try the following):
+### Merge the branch after Positiv Review of members (has to be done in GitHub GUI or try the following):
 >git merge --no--ff feature/gitbash-code-so-far-#10
 
 ### Closing an issue related to the PR in the same repository
@@ -115,22 +115,22 @@ git branch -D feature/gitbash-code-so-far-#10
 
 <!--- denotes a comment and should not be entered with it --->
 
-### Showing all branches
+### Show all branches
 >git branch -a
 
-### Showing all upstreams
+### Show all upstreams
 >git remote show origin
 
-### Switching to branch
+### Switch to branch
 >git checkout #branch_name
 
-### Switching to branch and create if it does not exist
+### Switch to branch and create if it does not exist
 >git checkout -b #branch_name
 
-### Checking changes on the server (server->local)
+### Check changes on the server (server->local)
 >git fetch
 
-### Transfering change from server (server->local->merge)
+### Transfer change from server (server->local->merge)
 >git pull
 
 ### Transfer changes (commits) to the server (local->server)
