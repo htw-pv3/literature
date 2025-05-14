@@ -1,64 +1,101 @@
-# Crib Sheet - GIT
+# Crib Sheet - git
 
-# Cheat Sheet Collection
+## Cheat sheet collection
 
-## git
+[git-cheat-sheet by GitHub](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 
-[git-cheat-sheet by github](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
-
-[git-cheat-sheet by tower](https://user-images.githubusercontent.com/14353512/80648952-5fb73080-8a71-11ea-8c5a-1297b1c4a9fd.png)
+[git-cheat-sheet by Tower](https://user-images.githubusercontent.com/14353512/80648952-5fb73080-8a71-11ea-8c5a-1297b1c4a9fd.png)
 
 
-## Git Setup Configuration in GitBash (Open GitBash as Admin)
+## Git Bash configuration
 
-### Your Identity
->git config --global user.name "John Doe" <br>
-git config --global user.email johndoe@example.com
-
-### Your Editor Programm
->git config --global core.editor "'C:/Programme_RE/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
-
-### Checking Your Settings
+### Check the settings
 >git config --list
 
-### Checking and Edit The Global Settings
+### Check and edit the global settings
 >git config --global --edit
 
-### Open in your Editor the file bash.bashrc from the Directory C:\Git\etc\ and Add at the end of the file the following lines:
->start from <br>
-cd C:/git/github;
+### Setup identity
+>git config --global user.name "John Doe" <br>
+>git config --global user.email johndoe@example.com
 
-### Check that you are under C:/git/github/htw-pv3
-, otherwise write as follows;
+### Setup editor 
+>git config --global core.editor "'C:/Programme/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+
+### Start Git Bash in git folder
+Open the file **bash.bashrc** from the directory **../Git4Win/etc** <br>
+Add the path of your git folder at the end of the file
+>cd C:/git/github;
+
+## git commands - setup
+
+### Navigate to drive
+>cd C:
+
+### Navigate to git folder
 >cd C:/git/github/htw-pv3
 
-### Cloning the Repository literature in htw-pv3/literature:
+### Clone the repository literature (download)
 >git clone https://github.com/htw-pv3/literature.git
 
-### Cloning the Repository wheather-data in htw-pv3/weather-data:
+### Clone the repository weather-data (download)
 >git clone https://github.com/htw-pv3/weather-data.git
 
-### Going inside the directory literature (C:/git/github/htw-pv3/literature)
-, it will change to master
+### Navigate into repository literature
 >cd literature
 
-### Checking the Status of the Files and the changes
+$ c/git/github/htw-pv3/literature (production)
+
+### Check the current status
 >git status
 
-### Checking the Status and the changes associated with users and Structure of branches (Tree form with content and code)
+### Check the changes in tree form
 >gitk
 
-### Changing the name or extention of a File
->git mv git_cheat_sheet.txt git_cheat_sheet.md
 
-### TRACKING New Files or STAGING Modified Files: with git add is a multipurpose command
+## git commands - branches
+
+### Show all local branches
+>git branch
+
+### Show all branches
+>git branch -a
+
+### Show all branches with details
+>git branch -av
+
+### Change to develop branch
+>git checkout develop
+
+### Change to production branch
+>git checkout production
+
+
+## git commands - edit
+
+### Rename a file or move (mv)
+>git mv old_name.txt new_name.md
+
+### Add a new file
 you use it to begin tracking new files, to stage files and to do other things 
 like marking merge-conflicted files as resolved. It may be helpful to think of it more as “add precisely this content to the next commit” rather than “add this file to the project”
->git add git_cheat_sheet.md
+>git add file.md
 
-### Confirm or committing the changes with a message -m and jumping the git add with -a
-Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part from before. *It is important to leave a space before # to give the Hashtag or Ticketnumber*
->git commit -a -m "Changing the File extension #6"
+### Commit the changes (local)
+>git commit file.md
+
+Enter a commit message: "Update version number #123"
+
+### Commit the changes with message
+>git commit file.md -m "Update version number #123"
+
+### Commit all changes in different files with message
+>git commit -am "Update version number #123"
+
+### Push the changes (remote/GitHub) - Upload
+>git push
+
 
 ### Creating a new File in the actual Folder and open it with the editor
 >start notepad++ Codes_GitBash_So_Far.md
@@ -110,8 +147,6 @@ git branch -D feature/gitbash-code-so-far-#10
 ### Closing an issue related to the PR in the same repository
 >close #issue_number
 
-### Changing to the master or dev Branch
->git checkout master ***OR*** dev
 
 <!--- denotes a comment and should not be entered with it --->
 
