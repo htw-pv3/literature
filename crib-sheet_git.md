@@ -290,3 +290,25 @@ To visualize the Git repo and create the overview on the project, the following 
 4. ** GitBlade **
 5. ** SmartGit **
 6. ** ungit **
+## GitHub Token Anleitung
+
+Für GitHub darf beim Arbeiten mit Git über HTTPS kein Passwort mehr verwendet werden.
+
+Stattdessen benötigt man ein Personal Access Token.
+
+### Token erstellen
+
+1. GitHub öffnen
+2. Settings auswählen
+3. Developer settings öffnen
+4. Personal access tokens auswählen
+5. Generate new token anklicken
+6. Scope `repo` auswählen
+7. Token generieren und sofort kopieren
+
+### Verwendung
+
+Beim Zugriff über Git:
+
+- Username = GitHub Benutzername
+- Password = Personal Access Token
