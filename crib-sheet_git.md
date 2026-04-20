@@ -1,6 +1,6 @@
 # Crib Sheet - git
 
-## Cheat sheet collection
+## Cheat sheet collection für Anfänger
 
 [git-cheat-sheet by GitHub](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 
@@ -93,7 +93,7 @@ Enter a commit message: "Update version number #123"
 ### Commit all changes in different files with message
 >git commit -am "Update version number #123"
 
-### Push the changes (remote/GitHub) - Upload
+###  the changes (remote/GitHub) - Upload
 >git push
 
 
@@ -157,7 +157,7 @@ git branch -D feature/gitbash-code-so-far-#10
 >git remote show origin
 
 ### Switch to branch
->git checkout #branch_name
+>git feature/gitbash-code-so-far#10 #branch_name
 
 ### Switch to branch and create if it does not exist
 >git checkout -b #branch_name
