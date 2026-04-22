@@ -192,3 +192,19 @@ If you are the reviewer:
 
 !!! note "Used Icons"
     🐙 GitHub | 💠 git | 📝 File | 💻 Command Line
+	
+## Troubleshooting
+
+### Problem: Permission denied (403)
+**Solution:**
+- Use a GitHub personal access token instead of a password
+
+### Problem: Updates rejected
+**Solution:**
+- Run `git pull` before pushing changes
+
+### Problem: Merge conflicts
+**Solution:**
+- Open the conflicting files
+- Resolve the conflicts manually
+- Add and commit the changes again
