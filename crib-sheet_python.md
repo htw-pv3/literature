@@ -15,8 +15,6 @@
 [seaborn-cheat-sheat](https://python-graph-gallery.com/wp-content/uploads/Seaborn_Cheatsheet_Datacamp.png)
 
 
-
-
 # I can comment with pound sign. Yes that's also comment.
 
 # Assigning string to a variable
@@ -177,3 +175,49 @@ def evenOdd( x ):
   evenOdd(3)
   
 ## Output is: odd
+
+
+### Numpy
+
+## After installing numpy, import Numpy
+
+# Import numpy
+import numpy as np
+
+## Create Numpy arrays from standard Python lists
+
+# Creating a 1-Dimensional array (like a single row of numbers)
+my_list = [1, 2, 3, 4, 5]
+array_1d = np.array(my_list)
+print("1D Array:", array_1d)
+
+# Creating a 2-Dimensional array (like a grid or spreadsheet)
+my_matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+array_2d = np.array(my_matrix)
+print("\n2D Array:\n", array_2d)
+
+## Automatically generate arrays using numpy
+
+# np.arange(start, stop, step) - Similar to Python's range()
+sequence = np.arange(0, 10, 2) 
+print("Sequence:", sequence)
+# Output: [0 2 4 6 8]
+
+# np.zeros(shape) - Creates an array filled with 0s
+zeros_array = np.zeros(5)
+print("Zeros:", zeros_array)
+# Output: [0. 0. 0. 0. 0.]
+
+## Do array math on numpy lists
+
+prices = np.array([10, 20, 30, 40])
+doubled_prices = prices * 2
+# Output: [20 40 60 80]
+
+discounted = prices - 5
+# Output: [ 5 15 25 35]
+
+tips = np.array([2, 5, 3, 8])
+total_cost = prices + tips
+print("Total Cost:", total_cost) 
+# Output: [12 25 33 48]
