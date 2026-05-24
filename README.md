@@ -11,3 +11,5 @@ It contains cheat sheets for the different software tools used during the course
 * **Git:** Version control software that enables collaborative work on a project. This section contains tutorials and commands.
 * **Python:** An open-source programming language that is easy to learn and suitable for numerous purposes.
 * **PV for Engineers:** Information and literature on setting up PV systems.
+* **Photovoltaic Theory:** Contains details and references regarding the photoelectric effect and PV system components (Ref: #339).
+*
